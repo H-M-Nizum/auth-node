@@ -1,0 +1,7 @@
+npn init
+npm i express bcryptjs cookie-parser cors helmet zod jsonwebtoken mongoose nodemailer
+
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --trace-warnings --env-file=.env index.js"
+  },
